@@ -1,0 +1,157 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>/</id>
+  <title>Laitco</title>
+  <subtitle>Homelab Projekte für IT-Nerds</subtitle>
+  <updated>2026-06-19T01:40:52+02:00</updated>
+  <author>
+    <name>Florian Lauer</name>
+    <uri>/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="de-DE"
+    href="/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Florian Lauer </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>OPNsense Gateway Healthcheck – A Dockerized Monitoring Helper Tool</title>
+    <link href="/posts/OPNsense_Gateway_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" rel="alternate" type="text/html" title="OPNsense Gateway Healthcheck – A Dockerized Monitoring Helper Tool" />
+    <published>2025-04-13T00:00:00+02:00</published>
+  
+    <updated>2025-04-13T00:00:00+02:00</updated>
+  
+    <id>/posts/OPNsense_Gateway_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/</id>
+    <content type="text/html" src="/posts/OPNsense_Gateway_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" />
+    <author>
+      <name>Florian Lauer</name>
+    </author>
+
+  
+    
+    <category term="Docker" />
+    
+    <category term="Self Owned Project" />
+    
+    <category term="Apps" />
+    
+  
+
+  <summary>Überwache deine OPNsense Gateways ganz einfach!  Hey! 👋 Du nutzt OPNsense und möchtest deine Gateways im Blick behalten? Dann habe ich genau das Richtige für dich: OPNsense Gateway Healthcheck. Dieses Projekt macht es super einfach, den Status deiner Gateways zu überwachen – egal ob Internetdienstanbieter (ISP) oder VPN-Gateways. 🎯  Warum dieses Tool?  OPNsense ist großartig, aber manchmal fehl...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Tailscale Healthcheck – A Dockerized Monitoring Helper Tool</title>
+    <link href="/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" rel="alternate" type="text/html" title="Tailscale Healthcheck – A Dockerized Monitoring Helper Tool" />
+    <published>2025-04-10T00:00:00+02:00</published>
+  
+    <updated>2025-04-10T00:00:00+02:00</updated>
+  
+    <id>/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/</id>
+    <content type="text/html" src="/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" />
+    <author>
+      <name>Florian Lauer</name>
+    </author>
+
+  
+    
+    <category term="Docker" />
+    
+    <category term="Self Owned Project" />
+    
+    <category term="Apps" />
+    
+  
+
+  <summary>Überwache dein Tailscale-Netzwerk mit Leichtigkeit!  Hey, nutzt du Tailscale und möchtest sicherstellen, dass alle Geräte in deinem Netzwerk gesund und erreichbar sind? Dann ist Tailscale Healthcheck genau das Richtige für dich! Mit diesem Tool kannst du den Status deiner Geräte überwachen, gesunde und ungesunde Geräte auflisten und sogar spezifische Geräte im Auge behalten. Klingt gut, oder?  ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Dokumentenmangement System Paperless-NG Grundinstallation</title>
+    <link href="/posts/PaperlessNG_Grundinstallation/" rel="alternate" type="text/html" title="Dokumentenmangement System Paperless-NG Grundinstallation" />
+    <published>2022-03-28T00:00:00+02:00</published>
+  
+    <updated>2022-03-28T00:00:00+02:00</updated>
+  
+    <id>/posts/PaperlessNG_Grundinstallation/</id>
+    <content type="text/html" src="/posts/PaperlessNG_Grundinstallation/" />
+    <author>
+      <name>Florian Lauer</name>
+    </author>
+
+  
+    
+    <category term="Docker" />
+    
+    <category term="Apps" />
+    
+  
+
+  <summary>Vorwort In diesem Beitrag findest du eine Step-by-Step Anleitung zur Installation des Dokumentenmangement Systems Paperless-NG als Docker Container.  Voraussetzungen         Docker-Host                Installation siehe: Docker Grundinstallation                 Optional: Dokumentenscanner                Empfohlen: Brother ADS-1700W                  Installation mittels Docker-Compose Im ersten ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Unifi Metrik Dashboard via InfluxDB und Grafana</title>
+    <link href="/posts/Unifi_Metrics_Grafana/" rel="alternate" type="text/html" title="Unifi Metrik Dashboard via InfluxDB und Grafana" />
+    <published>2022-03-23T00:00:00+01:00</published>
+  
+    <updated>2022-03-23T00:00:00+01:00</updated>
+  
+    <id>/posts/Unifi_Metrics_Grafana/</id>
+    <content type="text/html" src="/posts/Unifi_Metrics_Grafana/" />
+    <author>
+      <name>Florian Lauer</name>
+    </author>
+
+  
+    
+    <category term="Docker" />
+    
+    <category term="Apps" />
+    
+  
+
+  <summary>Vorwort In diesem Beitrag findest du eine Step-by-Step Anleitung zur Einrichtung eines Unifi Dashboards über Grafana und InfluxDB.  Voraussetzungen         InfluxDB                Installation siehe: InfluxDB Grundinstallation unter Docker                 InfluxDB Bucket und v1 Datenbank                Konfiguration siehe: InfluxDB Anlage einer v1 Datenbank unter Docker                 Grafana ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Traefik Metrik Dashboard via InfluxDB und Grafana</title>
+    <link href="/posts/Traefik_Metrics_Grafana/" rel="alternate" type="text/html" title="Traefik Metrik Dashboard via InfluxDB und Grafana" />
+    <published>2022-03-23T00:00:00+01:00</published>
+  
+    <updated>2022-03-23T00:00:00+01:00</updated>
+  
+    <id>/posts/Traefik_Metrics_Grafana/</id>
+    <content type="text/html" src="/posts/Traefik_Metrics_Grafana/" />
+    <author>
+      <name>Florian Lauer</name>
+    </author>
+
+  
+    
+    <category term="Docker" />
+    
+    <category term="Apps" />
+    
+  
+
+  <summary>Vorwort In diesem Beitrag findest du eine Step-by-Step Anleitung zur Einrichtung eines Traefik Dashboards über Grafana und InfluxDB.  Voraussetzungen         InfluxDB                Installation siehe: InfluxDB Grundinstallation unter Docker                  InfluxDB Bucket und v1 Datenbank                Konfiguration siehe: InfluxDB Anlage einer v1 Datenbank unter Docker                 Grafa...</summary>
+
+  </entry>
+
+</feed>
+
+
