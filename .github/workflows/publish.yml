@@ -1,0 +1,47 @@
+name: Publish to Bunny
+
+on:
+  push:
+    branches:
+      - website-build
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload to Bunny Storage
+        env:
+          BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
+          BUNNY_ACCESS_KEY: ${{ secrets.BUNNY_ACCESS_KEY }}
+        run: |
+          find . \
+            -not -path "./.git/*" \
+            -not -path "./.github/*" \
+            -not -name ".nojekyll" \
+            -not -name "CNAME" \
+            -type f | while read file; do
+
+            remote_path="${file#./}"
+
+            echo "Uploading ${remote_path}"
+
+            curl --fail --silent --show-error \
+              -X PUT \
+              "https://storage.bunnycdn.com/${BUNNY_STORAGE_ZONE}/${remote_path}" \
+              -H "AccessKey: ${BUNNY_ACCESS_KEY}" \
+              --upload-file "$file"
+          done
+
+      - name: Purge Bunny Cache
+        env:
+          BUNNY_PULLZONE_ID: ${{ secrets.BUNNY_PULLZONE_ID }}
+          BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
+        run: |
+          curl --fail \
+            -X POST \
+            "https://api.bunny.net/pullzone/${BUNNY_PULLZONE_ID}/purgeCache" \
+            -H "AccessKey: ${BUNNY_API_KEY}"
