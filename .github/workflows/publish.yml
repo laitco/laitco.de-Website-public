@@ -3,7 +3,7 @@ name: Publish to Bunny
 on:
   push:
     branches:
-      - website-build
+      - main
 
 jobs:
   publish:
