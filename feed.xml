@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Laitco</title>
   <subtitle>Homelab Projekte für IT-Nerds</subtitle>
-  <updated>2026-06-19T01:52:55+02:00</updated>
+  <updated>2026-06-19T02:05:24+02:00</updated>
   <author>
     <name>Florian Lauer</name>
     <uri>/</uri>
@@ -24,7 +24,7 @@
     <link href="/posts/OPNsense_Gateway_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" rel="alternate" type="text/html" title="OPNsense Gateway Healthcheck – A Dockerized Monitoring Helper Tool" />
     <published>2025-04-13T00:00:00+02:00</published>
   
-    <updated>2025-04-13T00:00:00+02:00</updated>
+    <updated>2025-09-02T10:18:13+02:00</updated>
   
     <id>/posts/OPNsense_Gateway_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/</id>
     <content type="text/html" src="/posts/OPNsense_Gateway_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" />
@@ -52,7 +52,7 @@
     <link href="/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" rel="alternate" type="text/html" title="Tailscale Healthcheck – A Dockerized Monitoring Helper Tool" />
     <published>2025-04-10T00:00:00+02:00</published>
   
-    <updated>2025-04-10T00:00:00+02:00</updated>
+    <updated>2025-09-02T10:18:13+02:00</updated>
   
     <id>/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/</id>
     <content type="text/html" src="/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" />
@@ -80,7 +80,7 @@
     <link href="/posts/PaperlessNG_Grundinstallation/" rel="alternate" type="text/html" title="Dokumentenmangement System Paperless-NG Grundinstallation" />
     <published>2022-03-28T00:00:00+02:00</published>
   
-    <updated>2022-03-28T00:00:00+02:00</updated>
+    <updated>2025-08-22T10:46:13+02:00</updated>
   
     <id>/posts/PaperlessNG_Grundinstallation/</id>
     <content type="text/html" src="/posts/PaperlessNG_Grundinstallation/" />
@@ -106,7 +106,7 @@
     <link href="/posts/Unifi_Metrics_Grafana/" rel="alternate" type="text/html" title="Unifi Metrik Dashboard via InfluxDB und Grafana" />
     <published>2022-03-23T00:00:00+01:00</published>
   
-    <updated>2022-03-23T00:00:00+01:00</updated>
+    <updated>2025-08-22T10:46:13+02:00</updated>
   
     <id>/posts/Unifi_Metrics_Grafana/</id>
     <content type="text/html" src="/posts/Unifi_Metrics_Grafana/" />
