@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Laitco</title>
   <subtitle>Homelab Projekte für IT-Nerds</subtitle>
-  <updated>2026-06-19T11:24:20+02:00</updated>
+  <updated>2026-06-19T22:47:47+02:00</updated>
   <author>
     <name>Florian Lauer</name>
     <uri>/</uri>
@@ -52,7 +52,7 @@
     <link href="/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" rel="alternate" type="text/html" title="Tailscale Healthcheck – A Dockerized Monitoring Helper Tool" />
     <published>2025-04-10T00:00:00+02:00</published>
   
-    <updated>2025-09-02T10:18:13+02:00</updated>
+    <updated>2026-06-19T22:37:33+02:00</updated>
   
     <id>/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/</id>
     <content type="text/html" src="/posts/Tailscale_Healthcheck_A_Dockerized_Monitoring_Helper_Tool/" />
