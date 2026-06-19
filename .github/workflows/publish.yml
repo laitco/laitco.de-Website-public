@@ -22,6 +22,7 @@ jobs:
             -not -path "./.git/*" \
             -not -path "./.github/*" \
             -not -name ".nojekyll" \
+            -not -name "CNAME" \
             -type f | while read file; do
 
             remote_path="${file#./}"
