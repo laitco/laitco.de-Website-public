@@ -11,10 +11,9 @@
 
 
 
-
-
 <!-- `site.alt_lang` can specify a language different from the UI -->
-<html lang="de-DE" data-mode="dark">
+<html
+  lang="de-DE"data-bs-theme="dark">
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
@@ -78,7 +77,8 @@
   
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
+  
+  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css?v=1782167282">
 
   <!-- Web Font -->
   <link rel="stylesheet" href="/assets/lib/fonts/main.css">
@@ -91,14 +91,14 @@
   
 
   
-    <link rel="stylesheet" href="/assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.min.css">
+    <link rel="stylesheet" href="/assets/no-maps/loading-attribute-polyfill/loading-attribute-polyfill.min.css">
   
 
   
 
   <!-- Scripts -->
 
-  <script src="/assets/js/dist/theme.min.js"></script>
+  <script src="/assets/js/dist/theme.min.js?v=1782167282"></script>
 
   <!-- JS selector for site. -->
 
@@ -132,7 +132,7 @@
   
 
   
-    <script defer src="/assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js"></script>
+    <script defer src="/assets/no-maps/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js"></script>
   
 
   
@@ -159,7 +159,8 @@
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+
+<script defer src="/assets/js/dist/home.min.js?v=1782167282"></script>
 
 
 
@@ -258,14 +259,14 @@
     </ul>
   </nav>
 
-  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     
 
     
 
       
         <a
-          href="javascript:location.href = 'mailto:' + ['blog','laitco.de'].join('@')"
+          href="javascript:void(location.href = 'mailto:' + ['blog','laitco.de'].join('@'))"
           aria-label="email"
           
 
@@ -4170,26 +4171,26 @@
     
       <aside
   id="notification"
-  class="toast"
+  class="toast w-auto rounded-5 text-nowrap"
   role="alert"
   aria-live="assertive"
   aria-atomic="true"
   data-bs-animation="true"
   data-bs-autohide="false"
 >
-  <div class="toast-header">
+  <div class="d-flex align-items-center">
+    <div class="toast-body ps-3">Eine neue Version ist verfügbar.</div>
     <button
       type="button"
-      class="btn-close ms-auto"
+      class="btn btn-primary btn-sm rounded-2 py-0"
+      aria-label="Update"
+    >Neue Version</button>
+    <button
+      type="button"
+      class="btn-close mx-3 ms-2"
       data-bs-dismiss="toast"
       aria-label="Close"
     ></button>
-  </div>
-  <div class="toast-body text-center pt-0">
-    <p class="px-2 mb-3">Eine neue Version ist verfügbar.</p>
-    <button type="button" class="btn btn-primary" aria-label="Update">
-      Neue Version
-    </button>
   </div>
 </aside>
 
