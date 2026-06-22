@@ -11,10 +11,9 @@
 
 
 
-
-
 <!-- `site.alt_lang` can specify a language different from the UI -->
-<html lang="de-DE" data-mode="dark">
+<html
+  lang="de-DE"data-bs-theme="dark">
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
@@ -82,7 +81,8 @@
   
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
+  
+  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css?v=1782167282">
 
   <!-- Web Font -->
   <link rel="stylesheet" href="/assets/lib/fonts/main.css">
@@ -93,11 +93,11 @@
   <!-- 3rd-party Dependencies -->
 
   
-    <link rel="stylesheet" href="/assets/lib/tocbot/tocbot.min.css">
+    <link rel="stylesheet" href="/assets/no-maps/tocbot/tocbot.min.css">
   
 
   
-    <link rel="stylesheet" href="/assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.min.css">
+    <link rel="stylesheet" href="/assets/no-maps/loading-attribute-polyfill/loading-attribute-polyfill.min.css">
   
 
   
@@ -107,7 +107,7 @@
 
   <!-- Scripts -->
 
-  <script src="/assets/js/dist/theme.min.js"></script>
+  <script src="/assets/js/dist/theme.min.js?v=1782167282"></script>
 
   <!-- JS selector for site. -->
 
@@ -144,7 +144,7 @@
   
 
   
-    <script defer src="/assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js"></script>
+    <script defer src="/assets/no-maps/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js"></script>
   
 
   
@@ -172,7 +172,7 @@
   
 
   
-    <script defer src="/assets/lib/tocbot/tocbot.min.js"></script>
+    <script defer src="/assets/no-maps/tocbot/tocbot.min.js"></script>
   
 
 
@@ -183,7 +183,8 @@
 
 
 
-<script defer src="/assets/js/dist/post.min.js"></script>
+
+<script defer src="/assets/js/dist/post.min.js?v=1782167282"></script>
 
 
 
@@ -286,14 +287,14 @@
     </ul>
   </nav>
 
-  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     
 
     
 
       
         <a
-          href="javascript:location.href = 'mailto:' + ['blog','laitco.de'].join('@')"
+          href="javascript:void(location.href = 'mailto:' + ['blog','laitco.de'].join('@'))"
           aria-label="email"
           
 
@@ -2686,9 +2687,7 @@
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
         <div class="label text-truncate py-2 ms-4">Traefik ForwardAuth Azure AD (OpenID Connect) mit Keycloak</div>
-        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
-          <i class="fas fa-close"></i>
-        </button>
+        <button id="toc-popup-close" type="button" class="btn-close btn-sm mx-3" aria-label="Close"></button>
       </div>
       <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
     </dialog>
@@ -3420,15 +3419,29 @@ tls:
   </div>
 
   <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
-    
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        
-          <a href="/categories/docker/">Docker</a>,
-          <a href="/categories/security/">Security</a>
-      </div>
-    
+    <div class="d-flex justify-content-between align-items-center gap-3 mb-3">
+      <!-- categories -->
+      
+        <div class="post-meta">
+          <i class="far fa-folder-open fa-fw me-1"></i>
+          
+            <a href="/categories/docker/">Docker</a>,
+            <a href="/categories/security/">Security</a>
+        </div>
+      
+
+      <!-- "Edit this post" link -->
+      <!-- Link to edit the post to contribute. -->
+
+
+
+
+
+
+
+
+
+    </div>
 
     <!-- tags -->
     
@@ -6138,26 +6151,26 @@ tls:
     
       <aside
   id="notification"
-  class="toast"
+  class="toast w-auto rounded-5 text-nowrap"
   role="alert"
   aria-live="assertive"
   aria-atomic="true"
   data-bs-animation="true"
   data-bs-autohide="false"
 >
-  <div class="toast-header">
+  <div class="d-flex align-items-center">
+    <div class="toast-body ps-3">Eine neue Version ist verfügbar.</div>
     <button
       type="button"
-      class="btn-close ms-auto"
+      class="btn btn-primary btn-sm rounded-2 py-0"
+      aria-label="Update"
+    >Neue Version</button>
+    <button
+      type="button"
+      class="btn-close mx-3 ms-2"
       data-bs-dismiss="toast"
       aria-label="Close"
     ></button>
-  </div>
-  <div class="toast-body text-center pt-0">
-    <p class="px-2 mb-3">Eine neue Version ist verfügbar.</p>
-    <button type="button" class="btn btn-primary" aria-label="Update">
-      Neue Version
-    </button>
   </div>
 </aside>
 
