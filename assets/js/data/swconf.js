@@ -1,9 +1,9 @@
 const swconf = {
   
-    cacheName: 'chirpy-1782574601',
+    cacheName: 'chirpy-1782685449',
 
     resources: [
-      '/assets/css/jekyll-theme-chirpy.css?v=1782574599',
+      '/assets/css/jekyll-theme-chirpy.css?v=1782685448',
       '/',
       
         '/categories/',
@@ -15,6 +15,8 @@ const swconf = {
         '/about/',
       
         '/remotesupport/',
+      
+        '/3DPrint-RLP/',
       
         '/homelabcoach/',
       
